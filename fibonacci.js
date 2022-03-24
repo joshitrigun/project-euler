@@ -37,6 +37,7 @@ const takeWhile = (fromFunc, cond, arr = []) => {
     arr.push(val);
     return takeWhile(fromFunc, cond, arr)
   }
+  console.log(arr);
   return arr;
 }
 
